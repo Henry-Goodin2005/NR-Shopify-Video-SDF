@@ -1,0 +1,15 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+    <projectname>nr-shopify-video</projectname>
+    <frameworkversion>1.0</frameworkversion>
+    <dependencies>
+        <features>
+            <feature required="true">INVENTORY</feature>
+            <feature required="true">WEBSERVICES</feature>
+            <feature required="false">SUBSIDIARIES</feature>
+            <feature required="false">CUSTOMSEGMENTS</feature>
+            <feature required="false">EXTREMELIST</feature>
+            <feature required="false">MAILMERGE</feature>
+            <feature required="false">MULTILANGUAGE</feature>
+        </features>
+    </dependencies>
+</manifest>
