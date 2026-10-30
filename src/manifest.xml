@@ -11,5 +11,15 @@
             <feature required="false">MAILMERGE</feature>
             <feature required="false">MULTILANGUAGE</feature>
         </features>
+        <objects>
+            <!--
+              Owned by the nr-bcs421 project, not this one. Declared here so SDF
+              resolves the <roleaccesses> references in the three item fields
+              against the target account instead of looking for the role in this
+              project. Deploying the role from two projects would mean whichever
+              ran last wins, so it stays owned by BCS-421.
+            -->
+            <object>customrole_bcs421_integration</object>
+        </objects>
     </dependencies>
 </manifest>
